@@ -26,8 +26,9 @@ nav{
 a{
     color: #FFFFFF;
     text-decoration: none;
-    padding: 20px;
+    padding: 18px;
     font-size: 28px;
+    width: 100%;
 }
 blockquote{
     font-size: 20px;
