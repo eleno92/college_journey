@@ -8,9 +8,6 @@ table{
     overflow: hidden;
     text-align: center;
     margin: 0 auto;
-    max-width: 950px;
-    border-collapse: collapse;
-    width: 100%;
 }
 th{
     border: 1px dotted #3A3A3A;
@@ -20,18 +17,11 @@ body{
     background-color: #121212;
     color: #FFFFFF;
     text-align: center;
-    padding: 0px;
-    margin: 0px;
 }
 nav{
     background-color: #1A1A1A;
     width: 100%;
     height: auto;
-    padding: 0px;
-    margin: 0px;
-}
-* {
-    box-sizing:border-box;
 }
 a{
     color: #FFFFFF;
