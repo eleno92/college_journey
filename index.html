@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <a href="#dashboard">🏠 Dashboard</a>
+            <a href="#colleges">🎓 Colleges</a>
+            <a href="#scholarships">💰 Scholarships</a>
+            <a href="#essays">📝 Essays</a>
+            <a href="#calender">📅 Calendar</a>
+            <a href="#tasks">✅ Tasks</a>
+        </nav>
+        <header id="dashboard">
+            <h1>Welcome Back!</h1>
+            <h2>College Application Journey</h2>
+            <h3>Stay on top of every deadline, application, scholarship, and essay.</h3>
+            <blockquote> “A little progress each day adds up to big results.” </blockquote>
+        </header>
+        <br>
+        <section id="colleges">
+            <div>
+                <h1>🎓 College Tracker 🎓</h1>
+            </div>
+            <center>
+            <table>
+                <tr id="table-header">
+                    <th>College</th>
+                    <th>Location</th>
+                    <th>Major</th>
+                    <th>Minor (optional)</th>
+                    <th>Application Type</th>
+                    <th>Deadline</th>
+                    <th>Status</th>
+                    <th>Decision</th>
+                    <th>Priority</th>
+                    <th>Notes</th>
+                </tr>
+                <tr>
+                    <th>Georgia Institute of Technology</th>
+                    <th>Atlanta, GA</th>
+                    <th>Mechanical Engineering</th>
+                    <th>Electrical Engineering</th>
+                    <th>Common App</th>
+                    <th class="future">October 15, 2026</th>
+                    <th class="working_on">✍ Working On</th>
+                    <th>N/A</th>
+                    <th>⭐ Dream</th>
+                    <th>
+                        <ul>
+                            <li>ABET-accredited university</li>
+                            <li>high % jobs after graduating</li>
+                        </ul>
+                    </th>
+                </tr>
+                <tr>
+                    <th>University of Georgia</th>
+                    <th>Athens, GA</th>
+                    <th>Mechanical Engineering</th>
+                    <th>Electrical Engineering</th>
+                    <th>Common App</th>
+                    <th class="future">October 15, 2026</th>
+                    <th class="working_on">✍ Working On</th>
+                    <th>N/A</th>
+                    <th>🟢 Target</th>
+                    <th>
+                        <ul>
+                            <li>ABET-accredited</li>
+                            <li>not strongest engineering program</li>
+                        </ul>
+                    </th>
+                </tr>
+                <tr>
+                    <th>Kennesaw State University</th>
+                    <th>Marietta, GA</th>
+                    <th>Mechanical Engineering</th>
+                    <th>Electrical Engineering</th>
+                    <th>Common App</th>
+                    <th class="future">November 2, 2026</th>
+                    <th class="working_on">✍ Working On</th>
+                    <th>N/A</th>
+                    <th>🔵 Safety</th>
+                    <th>
+                        <ul>
+                            <li>ABET-accredited</li>
+                            <li>strong engineering/honors program</li>
+                        </ul>
+                    </th>
+                </tr>
+            </table>
+            </center>
+        </section>
+        <!--
+        ⭐ Interested
+
+        🔍 Researching
+
+        ✍ Working On
+
+        📤 Submitted
+
+        🎉 Accepted
+
+        ❌ Declined
+
+        ⏳ Waitlisted
+        -->
+        <section id="scholarships">
+            <div>
+                <h1>💰 Scholarship Tracker</h1>
+                <h2>Find, organize, and track scholarships, deadlines, requirements, and submissions.</h2>
+            </div>
+            <center>
+            <table>
+                <tr id="table-header">
+                    <th>Scholarship</th>
+                    <th>Organization</th>
+                    <th>Amount</th>
+                    <th>Deadline</th>
+                    <th>Requirements</th>
+                    <th>Status</th>
+                    <th>Priority</th>
+                    <th>Link</th>
+                    <th>Notes</th>
+                </tr>
+                <tr>
+                    <th>The Coca-Cola Scholars Program Scholarship</th>
+                    <th>Coca-Cola</th>
+                    <th>$20,000</th>
+                    <th>N/A</th>
+                    <th>
+                        <ul>
+                            <li>U.S. citizen</li>
+                            <li>>3.0 GPA</li>
+                        </ul>
+                    </th>
+                    <th>⭐ Interested</th>
+                    <th>🟡 Medium</th>
+                    <th><a href="https://www.coca-colascholarsfoundation.org/apply/">Click here</a></th>
+                    <th>
+                        <ul>
+                            <li>very competitive</li>
+                        </ul>
+                    </th>
+                </tr>
+            </table>
+            </center>
+        </section>
+        <!--
+        ⭐ Interested
+
+        🔍 Researching
+
+        ✍ Preparing
+
+        📤 Submitted
+
+        ⏳ Waiting
+
+        🎉 Won
+
+        ❌ Not Selected
+
+        ⭐ High
+        🟡 Medium
+        🔵 Low
+        -->
+        <section id="essays">
+            <div>
+                <h1>📝 Essay Tracker</h1>
+                <h2>Organize prompts, drafts, revisions, and deadlines.</h2>
+            </div>
+            <table>
+                <tr id="table-header">
+                    <th>Essay</th>
+                    <th>College/Scholarship</th>
+                    <th>Type</th>
+                    <th>Prompt</th>
+                    <th>Word Limit</th>
+                    <th>Deadline</th>
+                    <th>Status</th>
+                    <th>Notes</th>
+                </tr>
+                <tr>
+                    <th>Common App Essay</th>
+                    <th>Georgia Institute of Technology</th>
+                    <th>Common App</th>
+                    <th>Discuss an accomplishment, event, or realization that sparked a period of personal growth and a new understanding of yourself or others.</th>
+                    <th>650 words</th>
+                    <th>October 15, 2026</th>
+                    <th id="drafting">✍ Drafting</th>
+                    <th>
+                        <ul>
+                            <li>see draft</li>
+                        </ul>
+                    </th>
+                </tr>
+            </table>
+        </section>
+        <!--
+        💡 Idea
+
+        📝 Outline
+
+        ✍ Drafting
+
+        🔄 Revising
+
+        👀 Reviewing
+
+        ✅ Complete
+        -->
+        <div>
+            <h1>✅Tasks</h1>
+            <h2>Stay organized and never miss a deadline.</h2>
+        </div>
+        <center>
+        <section id="tasks">
+            
+            <div>
+                <button type="button" id="addTaskButton">+ Add New Task</button>
+            </div>
+            <br>
+            <div id="taskForm">
+                <input id="taskInput" type="text" placeholder="Enter a new task...">
+                <button type="button" id="saveTaskButton">Save Task</button>
+            </div>
+            <ul id="taskList"></ul>
+        </section>
+        </center>
+        <br>
+        <!--
+        <div>
+            <h1>🎯 Today's Focus</h1>
+
+        </div>
+        <div>
+            <h1>🔔 Tomorrow's Deadlines</h1>
+        </div>
+        <div>
+            <h1>📅 This Week</h1>
+        </div>
+        <div>
+            <h1>Next Due In</h1>
+        </div>
+        <br>
+    -->
+        <h1>🌟 Daily Motivation</h1>
+        <h2>🎓 Future you will thank you for today's work.</h2>
+        <script src="script.js"></script>
+    </body>
+</html>
